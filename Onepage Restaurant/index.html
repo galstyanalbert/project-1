@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Onepage_Restaurant</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="menu">
+		<p>
+			<button onclick="menu_button()">Menu</button>
+		</p>
+		<p>
+			<button onclick="con_button()">Contact</button>
+		</p>
+	</div>
+	<div class="logo">
+	<p>logo</p>
+	</div>	
+	<div class="contact">
+		<p class="day">monday - friday 10-23 | saturday 14-02</p>
+		<p class="adress">42 village St, New York</p>
+		<p class="link">powered by <a href="">w3.css</a></p>
+	</div>
+	<div id="op_menu">
+		<div class="menu_content">
+			<div class="black">
+				<h2>Starters</h2>
+				<span onclick="close_button()" id="close">x</span>
+			</div>
+			<div class="white">
+				<h5>Tomato Soup <span>$2.50</span></h5>
+				<h5>Chicken Salad <span>$3.50</span></h5>
+				<h5>Bread and Butter <span>$1.00</span></h5>
+			</div>
+			<div class="black">
+				<h2>Main Courses</h2>
+			</div>
+			<div class="white">
+			 	<h5>Grilled Fish and Potatoes <span>$8.50</span></h5>
+				<h5>Italian Pizza <span>$5.50</span></h5>
+				<h5>Veggie Pasta <span>$4.00</span></h5>
+				<h5>Chicken and Potatoes <span>$6.50</span></h5>
+				<h5>Deluxe Burger <span>$5.00</span></h5>
+		    </div>
+			<div class="black">
+				<h2>Desserts</h2>
+			</div>
+			<div class="white">
+				<h5>Fruit Salad <span>$2.50</span></h5>
+				<h5>Ice cream <span>$2.00</span></h5>
+				<h5>Chocolate Cake <span>$4.00</span></h5>
+				<h5>Cheese <span>$5.50</span></h5>
+			</div>
+		</div>
+	</div>
+	<div id="con_menu">
+		<div class="con_content">
+			<div class="black">
+				<h2>Contact</h2>
+				<span onclick="close_button2()" id="close">x</span>
+			</div>
+			<div class="white">
+			 	<p>Reserve a table, ask for today's special or just send us a message:</p>
+			 	<form class="con_form" action="">
+			 		<p><input type="text" placeholder="Name"></p>
+			 		<p><input type="number" placeholder="How Many People"></p>
+			 		<p><input type="datetime-local" placeholder="Date and time" value="2024-01-24T20:00"></p>
+			 		<p><input type="text" placeholder="Message \ Special Requirements"></p>
+			 		<p><button>SEND MESSAGE</button></p>
+			 	</form>
+		    </div>
+		</div>
+	</div>																												
+
+<script src="js/script.js"></script>
+</body>
+</html>
